@@ -1,0 +1,6 @@
+{
+    "Vietnam": { "aqi": 40, "wqi": 70, "ndvi": 60, "population_growth": 1.2 },
+    "United States": { "aqi": 65, "wqi": 80, "ndvi": 55, "population_growth": 0.8 },
+    "India": { "aqi": 85, "wqi": 60, "ndvi": 45, "population_growth": 1.0 }
+  }
+  

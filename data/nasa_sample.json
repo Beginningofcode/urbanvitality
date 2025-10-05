@@ -1,0 +1,8 @@
+{
+    "source": "NASA Earthdata",
+    "datasets": [
+      { "name": "MODIS Air Quality", "link": "https://earthdata.nasa.gov" },
+      { "name": "Landsat Vegetation Index", "link": "https://landsat.gsfc.nasa.gov" }
+    ]
+  }
+  

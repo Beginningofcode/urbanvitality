@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanVitality – FPT Aerospace Team</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="splash-text">
+      <h1>FPT Aerospace Team Presents</h1>
+      <h2>UrbanVitality</h2>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <img src="{{ url_for('static', filename='images/fpt_logo.png') }}" id="team-logo" alt="FPT Aerospace Team"
+         onclick="window.open('https://www.spaceappschallenge.org/2025/find-a-team/fpt-aerospace-team','_blank')">
+  </header>
+
+  <!-- Map Section -->
+  <section id="map-section">
+    <div id="map"></div>
+  </section>
+
+  <!-- Charts Section -->
+  <section id="charts">
+    <div id="chart1" class="chart-box"></div>
+    <div id="chart2" class="chart-box"></div>
+    <div id="chart3" class="chart-box"></div>
+    <div id="chart4" class="chart-box"></div>
+  </section>
+
+  <!-- AI Assistant -->
+  <div id="ai-assistant">
+    <div id="chat-window" class="hidden">
+      <div id="chat-header">🌿 Earth Guardian AI</div>
+      <div id="chat-content"></div>
+      <input type="text" id="user-input" placeholder="Ask me about sustainability..." />
+    </div>
+    <button id="chat-toggle">💬</button>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main_v6.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/ai.js') }}"></script>
+</body>
+</html>
