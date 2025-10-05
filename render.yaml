@@ -5,6 +5,6 @@ services:
     region: oregon
     plan: free
     branch: main
-    rootDir: urbanvitality_v6
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn main:app"
+
